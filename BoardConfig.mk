@@ -24,8 +24,8 @@ include $(DEVICE_PATH)/board/*.mk
 include vendor/wingtech/wt88047/BoardConfigVendor.mk
 
 # Kernel Toolchains
-#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
-#KERNEL_TOOLCHAIN_PREFIX= arm-eabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-7.2/bin
+KERNEL_TOOLCHAIN_PREFIX= arm-none-eabi-
 
 # Assertions
 TARGET_RELEASETOOLS_EXTENSIONS := device/cyanogen/msm8916-common
