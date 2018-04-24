@@ -32,11 +32,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-<<<<<<< HEAD:mdroid.mk
     PRIVATE_BUILD_DESC="wt88047-user 5.1.1 LMY47V V9.2.5.0.LHJMIEK release-keys"
 
 BUILD_FINGERPRINT := Xiaomi/wt88047/wt88047:5.1.1/LMY47V/V9.2.5.0.LHJMIEK:user/release-keys
-=======
-    BUILD_FINGERPRINT="Xiaomi/wt88047/wt88047:5.1.1/LMY47V/V8.1.3.0.LHJMIDL:user/release-keys" \
-    PRIVATE_BUILD_DESC="wt88047-user 5.1.1 LMY47V V8.1.3.0.LHJMIDL release-keys"
->>>>>>> 231d88d71376214b7d924caf8d82a364cf2e7ed0:aokp.mk

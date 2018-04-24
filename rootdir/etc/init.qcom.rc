@@ -47,8 +47,6 @@ on init
 
     symlink /sdcard /storage/sdcard0
 
-export LD_SHIM_LIBS /system/lib64/libril.so|libshim_ril.so:/system/vendor/lib/libmmcamera2_stats_modules.so|libshim_gui.so:/system/vendor/lib/libmmqjpeg_codec.so|libboringssl-compat.so:/system/vendor/lib/libmmcamera2_stats_modules.so|libshim_atomic.so:/system/lib/hw/camera.vendor.msm8916.so|libshim_atomic.so
-
 on fs
     wait /dev/block/platform/soc.0/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
