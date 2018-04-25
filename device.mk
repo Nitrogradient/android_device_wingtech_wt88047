@@ -427,6 +427,7 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
     libshim_camera \
+    libshim_atomic \
     Snap
 
 # Permissions
