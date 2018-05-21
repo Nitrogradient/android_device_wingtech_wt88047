@@ -7,4 +7,3 @@ binder_use(surfaceflinger)
 # secure display
 allow surfaceflinger persist_file:dir r_dir_perms;
 
-set_prop(surfaceflinger, postprocessing_prop)
