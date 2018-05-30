@@ -520,6 +520,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_ENFORCE_RRO_TARGETS := framework-res
 
 # Hardware keys by default
-PRODUCT_BUILD_PROP_OVERRIDE +=\
+PRODUCT_PROPERTY_OVERRIDES += \
                qemu.hw.mainkeys=1
 
