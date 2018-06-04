@@ -19,5 +19,5 @@
     <color name="config_defaultNotificationColor">#ff00ffff</color>
 
     <!-- Disable button brightness settings -->
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+    <!-- integer name="config_buttonBrightnessSettingDefault">0</integer> -->
 </resources>
