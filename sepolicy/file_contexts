@@ -1,5 +1,2 @@
-/system/bin/mm-qcamera-daemon u:object_r:mm-qcamerad_exec:s0 
-
-#ims
-/system/bin/imsdatadaemon       u:object_r:ims_exec:s0
-/system/bin/imsqmidaemon        u:object_r:ims_exec:s0
+# Shell files
+/system/vendor/bin/init\.qcom\.mem\.sh               u:object_r:qti_init_shell_exec:s0

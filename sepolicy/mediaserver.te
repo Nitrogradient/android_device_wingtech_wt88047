@@ -1,1 +1,2 @@
-allow mediaserver socket_device:sock_file write;
+binder_call(mediaserver, servicemanager);
+binder_call(mediaserver, sensorservice_service);

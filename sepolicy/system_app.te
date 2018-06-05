@@ -1,3 +1,0 @@
-allow system_app wificond:binder call;
-#allow system_app installd:binder call;
-#allow system_app netd:binder call;
